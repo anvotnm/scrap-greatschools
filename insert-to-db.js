@@ -106,7 +106,7 @@ try {
                                     item.address.street1,
                                     item.lat,
                                     item.lon,
-                                    "https://www.greatschools.org/" + item.links.profile,
+                                    "https://www.greatschools.org" + item.links.profile,
                                 ],
                             };
                             promises.push(client.query(query));
